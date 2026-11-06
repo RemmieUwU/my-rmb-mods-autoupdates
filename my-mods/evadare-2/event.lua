@@ -8,9 +8,15 @@ function addNewPolo()
     polo.changeAnime(21, newBeatJson, newBeatSprite)
     polo.changeSound(21, 'sndA', newBeatSound)
     polo.changeSound(21, 'sndB', newBeatSound)
+
+    polo.changeAnime(22, newBeatJson, newBeatSprite)
+    polo.changeSound(22, 'sndA', newBeatSound)
+    polo.changeSound(22, 'sndB', newBeatSound)
 end
 
 onVersionLoadComplete(function()
     addNewPolo()
     picto.showIcon(21)
+    picto.showIcon(22)
+    print('Added 22th polo')
 end)
