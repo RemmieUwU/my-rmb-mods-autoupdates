@@ -1,5 +1,5 @@
 {
     "isEvent": "November",
-    "isHappening": false,
+    "isHappening": true,
     "lua": "event.lua"
 }
